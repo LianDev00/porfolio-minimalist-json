@@ -74,8 +74,8 @@
       "studyType": "Profesional Tecnico",
       "startDate": "2021-03-01",
       "endDate": "2023-12-29",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
+      "score": "17.5",
+      "courses": ["MS Azure","Oracle DB","Python"]
     }
   ],
   "awards": [
@@ -110,72 +110,29 @@
     }
   ],
   "skills": [
-    {
-      "name": "HTML"
-    },
-    {
-      "name": "CSS"
-    },
-    {
-      "name": "JavaScript"
-    },
-    {
-      "name": "Python"
-    },
-    {
-      "name": "Java"
-    },
-    {
-      "name": "C#"
-    },
-    {
-      "name": ".NET"
-    },
-    {
-      "name": "Tailwind"
-    },
-    {
-      "name": "TypeScript"
-    },
-    {
-      "name": "PHP"
-    },
-    {
-      "name": "Laravel"
-    },
-    {
-      "name": "Node"
-    },
-    {
-      "name": "Astro"
-    },
-    {
-      "name": "MySQL"
-    },
-    {
-      "name": "MS SQL Server"
-    },
-    {
-      "name": "Oracle DB"
-    },
-    {
-      "name": "Git"
-    },
-    {
-      "name": "GitHub"
-    },
-    {
-      "name": "Power BI"
-    },
-    {
-      "name": "MS Azure"
-    },
-    {
-      "name": "AWS"
-    },
-    {
-      "name": "Xamarin"
-    }
+    "HTML",
+    "CSS",
+    "JSON",
+    "JavaScript",
+    "Python",
+    "Java",
+    "C#",
+    ".NET",
+    "Tailwind",
+    "TypeScript",
+    "PHP",
+    "Laravel",
+    "Node",
+    "Astro",
+    "MySQL",
+    "MS SQL Server",
+    "Oracle DB",
+    "Git",
+    "GitHub",
+    "Power BI",
+    "MS Azure",
+    "AWS",
+    "Xamarin"
   ],
   "languages": [
     {
