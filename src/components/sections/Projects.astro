@@ -7,7 +7,7 @@ import { projects } from "@/cv";
 <Section title="Proyectos">
   <ul>
     {
-      projects.map(({ url, description, highlights, name }) => {
+      projects.map(({ url, description, highlights, name, isActive }) => {
         return (
           <li>
             <article>
@@ -16,6 +16,7 @@ import { projects } from "@/cv";
                   <a href={url} title={`Ver el proyecto ${name}`}>
                     {name}
                   </a>
+                  {isActive && <span>●</span>}
                 </h3>
                 <p>{description}</p>
               </header>
@@ -70,6 +71,10 @@ import { projects } from "@/cv";
     font-size: 0.75rem;
     line-height: 1.2rem;
     margin-bottom: 4px;
+  }
+
+  article h3 span {
+    color: rgb(0, 255, 65);
   }
 
   footer {

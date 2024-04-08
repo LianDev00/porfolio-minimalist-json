@@ -40,8 +40,7 @@ const printInfo = [ email, phone, linkedUrl ].filter(Boolean).join(` • `)
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electronico a ${name} al 
-        corre ${email}`}
+              title={`Enviar un correo electronico a ${name} al correo ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,8 +52,7 @@ const printInfo = [ email, phone, linkedUrl ].filter(Boolean).join(` • `)
           phone && (
             <a
               href={`tel:${phone}`}
-              title={`LLamar por telefono a ${name} al numero $
-        {phone}`}
+              title={`LLamar por telefono a ${name} al numero ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -63,7 +61,7 @@ const printInfo = [ email, phone, linkedUrl ].filter(Boolean).join(` • `)
           )
         }
         {
-          profiles.map(({ network,url,username }) => {
+          profiles.map(({ network,url }) => {
             const Icon = SOCIAL_ICONS[network]
           
             return  (
@@ -132,7 +130,7 @@ const printInfo = [ email, phone, linkedUrl ].filter(Boolean).join(` • `)
 
   footer{
     color: #555;
-    font-size: 0.60rem;
+    font-size: 0.65rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;

@@ -6,11 +6,11 @@
     "email": "liandev2000@gmail.com",
     "phone": "+51 991523613",
     "url": "#",
-    "summary": "+1 año de experiencia como Desarrollador. Vivo en #, Perú. He trabajado en diferentes entornos: desde implementar un sistema presupuestario hasta hacer el manual y ayudar en el soporde de la base de datos de una ERP.",
+    "summary": "+1 año de experiencia como Desarrollador. Vivo en el Callao, Lima, Perú. He trabajado en diferentes entornos: desde implementar un sistema presupuestario hasta hacer el manual y ayudar en el soporde de la base de datos de una ERP.",
     "location": {
       "address": "Calle Ejemplo 001",
       "postalCode": "00001",
-      "city": "Lima",
+      "city": "Callao",
       "countryCode": "PE",
       "region": "Perú"
     },
@@ -34,7 +34,7 @@
       "url": "#",
       "startDate": "2023-08-15",
       "endDate": "2023-12-15",
-      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae similique aspernatur quia iure facere libero natus ullam maiores nobis vel quo, error quis eaque inventore debitis repellendus, numquam voluptatem et!.",
+      "summary": "Durante mi tiempo en la empresa, tuve la responsabilidad de elaborar el manual de usuario para un sistema ERP. Además de esta tarea, también realicé contribuciones significativas a la base de datos del sistema ERP. Esto implicó la gestión y actualización de la base de datos para garantizar su integridad y eficiencia.",
       "highlights": ["#"]
     },
     {
@@ -43,7 +43,7 @@
       "url": "#",
       "startDate": "2023-01-13",
       "endDate": "2023-08-01",
-      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae similique aspernatur quia iure facere libero natus ullam maiores nobis vel quo, error quis eaque inventore debitis repellendus, numquam voluptatem et!.",
+      "summary": "Participé activamente en un programa de capacitación especializado en desarrollo web con el framework Laravel. Durante este programa, adquirí conocimientos y habilidades como la creación de rutas, controladores, vistas, modelos y la gestión de bases de datos. Además, pude familiarizarme con prácticas recomendadas en el desarrollo web moderno, tales como la seguridad, la optimización del rendimiento y la creación de API RESTful. ",
       "highlights": ["#"]
     },
     {
@@ -51,7 +51,7 @@
       "position": "Tecnico de Desarrollo",
       "startDate": "2022-07-04",
       "endDate": "2022-12-21",
-      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae similique aspernatur quia iure facere libero natus ullam maiores nobis vel quo, error quis eaque inventore debitis repellendus, numquam voluptatem et!.",
+      "summary": "Trabajé en un equipo colaborativo donde participamos en la implementación de un sistema de presupuestos utilizando tecnologías como .NET para el desarrollo de la aplicación de escritorio, Excel para el manejo de datos y Access 2010 para la gestión de la base de datos. Mi rol implicaba contribuir al diseño, desarrollo y pruebas del sistema, asegurando su funcionalidad y rendimiento.",
       "highlights": ["#"]
     }
   ],
@@ -105,85 +105,70 @@
   ],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend"]
+      "name": "HTML"
     },
     {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      "name": "CSS"
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      "name": "JavaScript"
     },
     {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
-      ]
+      "name": "Python"
     },
     {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
+      "name": "Java"
     },
     {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+      "name": "C#"
     },
     {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
+      "name": ".NET"
     },
     {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      "name": "Tailwind"
     },
     {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente",
-        "Git"
-      ]
+      "name": "TypeScript"
     },
     {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
+      "name": "PHP"
     },
     {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      "name": "Laravel"
+    },
+    {
+      "name": "Node"
+    },
+    {
+      "name": "Astro"
+    },
+    {
+      "name": "MySQL"
+    },
+    {
+      "name": "MS SQL Server"
+    },
+    {
+      "name": "Oracle DB"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "GitHub"
+    },
+    {
+      "name": "Power BI"
+    },
+    {
+      "name": "MS Azure"
+    },
+    {
+      "name": "AWS"
+    },
+    {
+      "name": "Xamarin"
     }
   ],
   "languages": [
@@ -193,7 +178,7 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Basic"
     }
   ],
   "interests": [
@@ -204,24 +189,17 @@
   ],
   "references": [
     {
-      "name": "Jane Doe",
-      "reference": "Reference…"
+      "name": " ",
+      "reference": " "
     }
   ],
   "projects": [
     {
-      "name": "mars.codes",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": ["Elige tu propia aventura", "En desarrollo"],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": ["Elige tu propia aventura", "En desarrollo"],
-      "url": "https://mars.codes"
+      "name": "CRUD ASP .NET",
+      "description": "El CRUD desarrollado con ASP.NET MVC utiliza las capacidades del framework para interactuar con la base de datos a través de Entity Framework y renderizar vistas HTML dinámicas que permiten a los usuarios interactuar con la aplicación de manera intuitiva y eficiente. ",
+      "highlights": ["HTML","CSS","C#", "ASP.NET MVC", "JavaScript", "MS SQL Server"],
+      "url": "https://github.com/LianDev00/AppNetCodeCapas6"
     }
   ]
 }
