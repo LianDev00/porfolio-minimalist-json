@@ -5,15 +5,26 @@ import Section from "../Section.astro";
 import { work } from "@/cv";
 ---
 
-<Section title="Experiencia">
+<Section title="Experiencia Laboral">
   <ul>
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights }) => {
+          const startMonth = new Date(startDate)
+            .toLocaleDateString("es-ES", { month: "long" })
+            .replace(/^\w/, (c) => c.toUpperCase());
           const startYear = new Date(startDate).getFullYear();
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actualmente";
-          const years = `${startYear} - ${endYear}`;
+          let endMonth, endYear;
+          if (endDate != null) {
+            endMonth = new Date(endDate)
+              .toLocaleDateString("es-ES", { month: "long" })
+              .replace(/^\w/, (c) => c.toUpperCase());
+            endYear = new Date(endDate).getFullYear();
+          } else {
+            endMonth = "Actualmente";
+            endYear = "";
+          }
+          const years = `${startMonth} ${startYear} - ${endMonth} ${endYear}`;
           return (
             <li>
               <article>
@@ -60,7 +71,7 @@ import { work } from "@/cv";
     margin-bottom: 4px;
   }
 
-  time{
+  time {
     color: #555;
     font-size: 0.85rem;
   }

@@ -62,7 +62,6 @@ const { title } = Astro.props;
   h4 {
     margin: 0;
     font-family:
-      Consolas,
       system-ui,
       -apple-system,
       BlinkMacSystemFont,
@@ -76,11 +75,27 @@ const { title } = Astro.props;
       sans-serif;
   }
 
-  p{
+  p {
     color: #666;
-    font-size: .85rem;
+    font-size: 0.85rem;
     line-height: 1.5;
     margin: 0;
     text-wrap: pretty;
+  }
+
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+  }
+
+  .print {
+    display: none !important;
+  }
+
+  @media print {
+    .print {
+      display: block !important;
+    }
   }
 </style>
