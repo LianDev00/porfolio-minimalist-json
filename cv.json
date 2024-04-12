@@ -34,7 +34,7 @@
       "url": "#",
       "startDate": "2023-08-15",
       "endDate": "2023-12-15",
-      "summary": "Durante mi tiempo en la empresa, tuve la responsabilidad de elaborar el manual de usuario para un sistema ERP. Además de esta tarea, también realicé contribuciones significativas a la base de datos del sistema ERP. Esto implicó la gestión y actualización de la base de datos para garantizar su integridad y eficiencia.",
+      "summary": "Durante mi tiempo en la empresa, elavore el manual de usuario para un sistema ERP y ayude a la gestión la base de datos para garantizar su integridad y eficiencia. Esta experiencia representó un desafío que superé con éxito, demostrando mi capacidad para enfrentar y resolver situaciones complejas.",
       "highlights": ["#"]
     },
     {
@@ -51,7 +51,7 @@
       "position": "Tecnico de Desarrollo",
       "startDate": "2022-07-04",
       "endDate": "2022-12-21",
-      "summary": "Trabajé en un equipo colaborativo donde participamos en la implementación de un sistema de presupuestos utilizando tecnologías como .NET para el desarrollo de la aplicación de escritorio, Excel para el manejo de datos y Access 2010 para la gestión de la base de datos. Mi rol implicaba contribuir al diseño, desarrollo y pruebas del sistema, asegurando su funcionalidad y rendimiento.",
+      "summary": "Trabajé en un equipo donde participamos en la implementación de un sistema de presupuestos utilizando tecnologías como .NET para el desarrollo de la aplicación de escritorio, Excel para el manejo de datos y Access 2010 para la gestión de la base de datos. Mi rol implicaba contribuir al diseño, desarrollo y pruebas del sistema, asegurando su funcionalidad y rendimiento.",
       "highlights": ["#"]
     }
   ],
@@ -160,7 +160,7 @@
     {
       "isActive": true,
       "name": "CRUD ASP .NET",
-      "description": "El CRUD desarrollado con ASP.NET MVC utiliza las capacidades del framework para interactuar con la base de datos a través de Entity Framework y renderizar vistas HTML dinámicas que permiten a los usuarios interactuar con la aplicación de manera intuitiva y eficiente. ",
+      "description": "El CRUD desarrollado con ASP.NET MVC interactuando con la base de datos usando Entity Framework y renderizar las vistas dinámicamente e interactuar con la aplicación de forma intuitiva y eficientemente.",
       "highlights": ["HTML","CSS","C#", "ASP.NET MVC", "JavaScript", "MS SQL Server"],
       "url": "https://github.com/LianDev00/AppNetCodeCapas6"
     }
